@@ -248,6 +248,11 @@ IPAC Conference - July 26, 2021
 ```
 
 ---
+class: center, middle
+
+# &#128064; [https://ipac.keithmcnulty.org](https://ipac.keithmcnulty.org)
+
+---
 class: left, middle
 
 ```{r, echo = FALSE}
