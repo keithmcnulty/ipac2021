@@ -82,8 +82,8 @@ meta() %>%
   meta_description("Presented at the IPAC Conference July 26, 2021") %>% 
   meta_social(
     title = "Human Resources 3.0",
-    url = "https://gadenbuie.github.io/slides/extra-awesome-xaringan",
-    image = "https://gadenbuie.github.io/slides/extra-awesome-xaringan/intro/extra-awesome-xaringan-presentations.jpg",
+    url = "https://ipac.keithmcnulty.org",
+    image = "https://ipac.keithmcnulty.org/cover.png",
     twitter_card_type = "summary_large_image",
     twitter_creator = "dr_keithmcnulty"
   )
