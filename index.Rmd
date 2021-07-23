@@ -70,10 +70,6 @@ style_duo_accent(
   )
 )
 xaringanExtra::use_xaringan_extra(c("animate_css", "scribble"))
-
-
-
-
 ```
 
 ```{r metadata, echo=FALSE}
