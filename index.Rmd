@@ -69,7 +69,7 @@ style_duo_accent(
     ".smallish, .smallish .remark-code-line" = list(`font-size` = "0.9em")
   )
 )
-xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+xaringanExtra::use_xaringan_extra(c("animate_css", "scribble"))
 
 
 
@@ -260,7 +260,7 @@ xaringanExtra::use_logo(
   image_url = "ipac.png"
 )
 
-xaringanExtra::use_animate_all("slide_left")
+xaringanExtra::use_animate_all("fade")
 
 ```
 
@@ -305,7 +305,7 @@ class: left, middle
 ]
 
 .f3[
-&#129302; The opportunities in Assessment
+&#129302; The rapidly changing world of Assessment
 ]
 
 .f3[
@@ -383,3 +383,142 @@ class: left, middle
 ## Profound shifts in jobs expected
 
 <center><img src="mgi.png" height=450></img></center>
+
+
+---
+class: inverse, center, middle
+
+# There is an imperative and an opportunity for HR to up its game
+
+---
+class: left, middle
+
+## HR can and must adapt
+
+<img src="hr1.png" height=450></img>
+
+---
+class: left, middle
+
+## HR can and must adapt
+
+<img src="hr2.png" height=450></img>
+
+---
+class: left, middle
+
+## HR can and must adapt
+
+<img src="hr3.png" height=450></img>
+
+
+---
+class: left, middle
+
+## Analytics underpins HR 3.0
+
+<center><img src="analytics.png" height=450></img></center>
+
+
+---
+class: inverse, center, middle
+
+# The world of assessment is developing at an unprecedented pace in the digital era
+
+
+---
+class: left, middle
+
+## How will decisions be made?
+
+<center><img src="algorithms.png" height=450></img></center>
+
+
+---
+class: left, middle
+
+## How will testing develop? 
+
+<center><video height="450" controls="controls" preload="none" onclick="this.play()">
+ <source type="video/webm" src="gameclip.mp4">
+</video></center>
+
+---
+class: left, middle
+
+## How to keep up with it all?
+
+.f3[
+&#128165;  Automated video assessment/facial recognition 
+]
+
+.f3[
+&#128165;  Natural Language Processing 
+]
+
+.f3[
+&#128165;  The emergence of 'grit' as a construct
+]
+
+.f3[
+&#128165;  Concerns about bias/fairness
+]
+
+.f3[
+&#128165;  And so much more
+]
+
+
+---
+class: inverse, center, middle
+
+# The assessment profession has a critical role to play, but this requires a more analytically driven approach
+
+---
+class: left, middle
+
+## Very important questions remain mostly unanswered 
+
+.f3[
+&#128533; Despite a lot of press, most technologies have yet to prove validity/fitness for purpose. PR is winning over science.
+]
+
+.f3[
+&#128533; Risks to fairness/diversity a concern.
+]
+
+.f3[
+&#128533; Applicant reactions/experience - particularly where poor face validity
+]
+
+.f3[
+&#128533; Academic research is now behind the curve - innovation happening in enterprise settings
+]
+
+
+---
+class: left, middle
+
+## High analytic standards needed 
+
+.f3[
+&#129299; Require a high standard of data - don't take vendor's word for it
+]
+
+.f3[
+&#129299; Be able to analyze and model the data
+]
+
+.f3[
+&#129299; Analytically defend the key four pillars:  validity, fairness, efficiency, experience
+]
+
+.f3[
+&#129299; Imperative to have analytic capabilities on teams
+]
+
+
+---
+class: inverse, center, middle
+
+# Thank you!
