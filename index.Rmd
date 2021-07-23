@@ -87,6 +87,7 @@ meta() %>%
     twitter_card_type = "summary_large_image",
     twitter_creator = "dr_keithmcnulty"
   )
+
 ```
 
 ```{r components, include=FALSE}
@@ -247,6 +248,14 @@ IPAC Conference - July 26, 2021
 }
 ```
 
+```{r echo = FALSE}
+xaringanExtra::use_progress_bar(
+  color = "blue",
+  location = c("top", "bottom"),
+  height = "0.25em"
+)
+```
+
 ---
 class: center, middle
 
@@ -261,6 +270,7 @@ xaringanExtra::use_logo(
 )
 
 xaringanExtra::use_animate_all("fade")
+
 
 ```
 
