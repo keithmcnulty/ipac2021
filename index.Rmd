@@ -273,7 +273,7 @@ xaringanExtra::use_animate_all("fade")
 ## Who am I and why am I here?
 
 .f3[
-&#x1F44B; Hi, I'm **Keith McNulty**
+&#x1F44B; Hi, I'm **Keith McNulty**.  I'm Director of Talent Science and Analytics at McKinsey & Company.
 ]
 
 .f3[
@@ -527,4 +527,4 @@ class: left, middle
 ---
 class: inverse, center, middle
 
-# Thank you!
+# &#128591; Thank you!
