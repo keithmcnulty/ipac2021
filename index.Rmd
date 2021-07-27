@@ -439,16 +439,6 @@ class: left, middle
 
 <center><img src="algorithms.png" height=450></img></center>
 
-
----
-class: left, middle
-
-## How will testing develop? 
-
-<center><video height="450" controls="controls" preload="none" onclick="this.play()">
- <source type="video/webm" src="gameclip.mp4">
-</video></center>
-
 ---
 class: left, middle
 
