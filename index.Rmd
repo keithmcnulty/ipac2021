@@ -1,8 +1,8 @@
 ---
-title: "Human Resources 3.0"
-subtitle: "Practicing HR in the Digital Age"
+title: "Innovation in People Analytics"
+subtitle: "UQ Business School Talk"
 author: "Keith McNulty"
-date: 'July 26, 2021'
+date: 'August 23, 2023'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -75,11 +75,11 @@ xaringanExtra::use_xaringan_extra(c("animate_css", "scribble"))
 ```{r metadata, echo=FALSE}
 library(metathis)
 meta() %>% 
-  meta_description("Presented at HRTech India August 5, 2021") %>% 
+  meta_description("Presented at UQ Business School, Brisbane - August 23, 2023") %>% 
   meta_social(
-    title = "Human Resources 3.0",
-    url = "https://hrtech-india.keithmcnulty.org",
-    image = "https://hrtech-india.keithmcnulty.org/cover.png",
+    title = "Innovation in People Analytics",
+    url = "https://uq-talk.keithmcnulty.org",
+    image = "https://uq-talk.keithmcnulty.org/cover.png",
     twitter_card_type = "summary_large_image",
     twitter_creator = "dr_keithmcnulty"
   )
@@ -130,10 +130,10 @@ background-position: top center
 [dr_km]: https://twitter.com/dr_keithmcnulty
 [km]: https://www.linkedin.com/in/keith-mcnulty/
 
-# Human Resources 3.0
+# Innovation in People Analytics
 
 .title-where[
-TechHR India -  August 5, 2021
+UQ Business School Talk - August 23, 2023
 ]
 
 ```{css echo=FALSE}
@@ -256,19 +256,19 @@ xaringanExtra::use_progress_bar(
 class: left, middle
 
 ```{r, echo = FALSE}
-xaringanExtra::use_logo(
-  image_url = "https://cdn.hubilo.com/logo/921314/300/4832_6341_335687001626763949.jpeg"
-)
+# xaringanExtra::use_logo(
+#   image_url = "https://cdn.hubilo.com/logo/921314/300/4832_6341_335687001626763949.jpeg"
+# )
 
 xaringanExtra::use_animate_all("fade")
 
 
 ```
 
-## Who am I and why am I here?
+## Who am I?
 
 .f3[
-&#x1F44B; Hi, I'm **Keith McNulty**.  I'm Director of Talent Science and Analytics at McKinsey & Company.
+&#x1F44B; Hi, I'm **Keith McNulty**.  I'm Leader of People Technology and Analytics at McKinsey & Company.
 ]
 
 .f3[
@@ -276,11 +276,11 @@ xaringanExtra::use_animate_all("fade")
 ]
 
 .f3[
-&#129299; Now I apply statistics/data science in the people/HR space
+&#129299; Now I run a global team of >70 professionals purely focused on people analytics
 ]
 
 .f3[
-&#128571; Fascinated by people measurement and analytics 
+&#129432; Based in the UK, I lived in Brisbane between 2007 and 2015, and have close family here.
 ]
 
 .f3[
@@ -288,7 +288,7 @@ xaringanExtra::use_animate_all("fade")
 ]
 
 .f3[
-&#128218; Textbook:  [Handbook of Regression Modeling in People Analytics](https://www.amazon.in/Handbook-Regression-Modeling-People-Analytics-ebook/dp/B097MR5TGC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1628060869&sr=8-1)
+&#128218; Textbooks:  [Handbook of Regression Modeling in People Analytics](https://www.amazon.com.au/Handbook-Regression-Modeling-People-Analytics/dp/1032041749/ref=sr_1_1?crid=2QXPC7S43KNKS&keywords=Keith+McNulty&qid=1692319964&sprefix=keith+mcnult%2Caps%2C350&sr=8-1);  [Handbook of Graphs and Networks in People Analytics](https://www.amazon.com.au/Handbook-Graphs-Networks-People-Analytics/dp/1032204974/ref=sr_1_2?crid=2QXPC7S43KNKS&keywords=Keith+McNulty&qid=1692320004&sprefix=keith+mcnult%2Caps%2C350&sr=8-2); [Data, Methods and Theory in the Organizational Sciences](https://www.amazon.com.au/Data-Methods-Theory-Organizational-Sciences/dp/0367857642/ref=sr_1_3?crid=2UVUKB28MCKR9&keywords=data%2C+methods+and+theory+in+the+organizational+sciences&qid=1692320066&sprefix=data+methods+and+the%2Caps%2C245&sr=8-3)
 ]
 
 
@@ -306,7 +306,7 @@ class: left, middle
 ]
 
 .f3[
-&#129302; The power of analytics in managing this momentous change
+&#129302; The power of people analytics in managing this momentous change
 ]
 
 
@@ -347,40 +347,9 @@ class: left, middle
 ---
 class: left, middle
 
-## What happened in the mid-1970s?
+## Disruption is accelerating
 
-<center><img src="https://flashbak.com/wp-content/uploads/2014/09/067_Dawn-of-the-Computer-Age.png" height=450></img></center>
-
-
----
-class: left, middle
-
-## Today, only 40 years later
-
-<center><video height="450" controls="controls" preload="none" onclick="this.play()">
- <source type="video/webm" src="alibaba.mp4">
-</video></center>
-
-
-<center><audio id="myAudio" src="http://www.gstatic.com/b-g/KOK4HAMTAPH5Z96154F6GKUM74A3Z1576269077.mp3" preload="auto">
-</audio>
-<a onClick="togglePlay()" style="cursor:pointer;">&#9654; Listen to phone call</a></center>
-
-<script type="text/javascript">
-var myAudio = document.getElementById("myAudio");
-
-function togglePlay() {
-  return myAudio.paused ? myAudio.play() : myAudio.pause();
-};
-</script>
-
----
-class: left, middle
-
-## Profound shifts in jobs expected
-
-<center><img src="mgi.png" height=450></img></center>
-
+<center><img src="automationpotential.jpg" height=450></img></center>
 
 ---
 class: inverse, center, middle
@@ -393,6 +362,7 @@ class: left, middle
 ## HR can and must adapt
 
 <img src="hr1.png" height=450></img>
+
 
 ---
 class: left, middle
@@ -418,24 +388,85 @@ class: inverse, center, middle
 ---
 class: left, middle
 
-## Example:  Assessment/job matching
+### People analytics is key
 
-<center>
-<video height="450" controls>
-  <source src="gameclip.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</center>
+<center><img src="staircase.png" height=525></img></center>
 
 ---
 class: left, middle
 
-## Example:  Org Design
+### Case Study 1: Rapid response employee listening
+
+<center><img src="pulsequestion.png" height=500></img></center>
+
+---
+class: left, middle
+
+### Weekly self-serve reporting with 24 hours of close
+
+<center><img src="pulsereport.png" height=500></img></center>
+
+---
+class: left, middle
+
+### NLP methods reveal rich detail from open comments 
+
+<center><img src="pulsenlp.png" height=450></img></center>
+
+---
+class: left, middle
+
+### Data combined with digital exhaust to create biweekly manager alerts
+
+<center><img src="manageralert.png" height=450></img></center>
 
 
-```{r, echo = FALSE, fig.align = "center"}
-knitr:::include_graphics("leiden1.gif")
-```
+---
+class: left, middle
+
+### Case Study 2:  Skill Analytics
+
+* A **Skill Taxonomy** is an organized hierarchy of skills/capabilities.  For example, Python and R might be skills that map to a higher category of *Data Science Programming*.  Managed taxonomies like **[Lightcast Open Skills](https://lightcast.io/open-skills)** provide a good ground truth for understanding a 'structured universe of skills', but not all apply in every organization.
+
+* A **Skill Ontology** is a network of related skills developed by mining your own organizations data.  It provides a foundation for understanding how skills relate to each other in your organization, and is a foundation for skills analytics. 
+
+
+---
+class: left, middle
+
+### Skills Graph Database Schema
+
+<center><img src="skillnet.png" height=450></img></center>
+
+
+---
+class: left, middle
+
+### Skills can be identified to be related to each other
+
+<center><img src="kedroskill.png" height=450></img></center>
+
+---
+class: left, middle
+
+### Skills similar to 'search engine marketing'
+
+<center><img src="searchengine.png" height=450></img></center>
+
+---
+class: left, middle
+
+### Example problems this helps solve
+
+* Match **applicants to jobs** based on skill similarity
+* Perform **external search** based on skill similarity
+* Route unsuccessful applicants to **similar jobs**
+* Describe **top skills** in an organizational unit/group
+* Infer **underrepresented skills** in an organization unit/group
+* Infuse **skill needs** into a location strategy
+* Relate **diversity goals** to **skill goals**
+* Track **changes in skill profiles** over time
+* Much much more...
 
 ---
 class: inverse, center, middle
