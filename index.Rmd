@@ -468,6 +468,16 @@ class: left, middle
 * Track **changes in skill profiles** over time
 * Much much more...
 
+
+---
+class: left, middle
+
+### Further reading
+
+* Google: How To Be Great at People Analytics (McNulty, Morales, Ledet 2020)
+* Google: The next competitive advantage in talent: Continuous employee listening (Damonte, Ledet, Morales, Tobey 2023)
+* Book Chapter: Using Data in Organizations - Chapter 4 of Data, Methods and Theory in the Organizational Sciences (McNulty, Fink 2022)
+
 ---
 class: inverse, center, middle
 
