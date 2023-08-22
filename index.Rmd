@@ -121,6 +121,8 @@ slides_from_images <- function(
 options("slide_image_placeholder" = FALSE)
 ```
 
+
+
 class: left title-slide no-animation
 background-image: url('nasa.jpg')
 background-size: cover
@@ -242,6 +244,18 @@ UQ Business School Talk - August 23, 2023
 	animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+
+.container-special {
+   display: flex;
+}
+
+.item-special {
+   flex:1;
+   text-align: center;
+   border: 1px solid blue;
+   margin: 10px;
+}
+
 ```
 
 ```{r echo = FALSE}
@@ -474,9 +488,29 @@ class: left, middle
 
 ### Further reading
 
-* Google: How To Be Great at People Analytics (McNulty, Morales, Ledet 2020)
-* Google: The next competitive advantage in talent: Continuous employee listening (Damonte, Ledet, Morales, Tobey 2023)
-* Book Chapter: Using Data in Organizations - Chapter 4 of Data, Methods and Theory in the Organizational Sciences (McNulty, Fink 2022)
+<div class="container-special"> 
+         <div class="item-special"> 
+            <img src="qr-code-1.png" height=200> 
+            <p><b>How to be Great at People Analytics</b> 
+            <br>
+            <i> Ledet, McNulty, Morales 2020</i></p> 
+         </div> 
+         <div class="item-special"> 
+            <img src="qr-code-2.png" height=200> 
+            <p><b>Continuous Employee Listening</b>
+            <br>
+            <i>Damonte, Ledet, Morales, Tobey 2023</i></p> 
+         </div> 
+         <div class="item-special"> 
+            <img src="qr-code-3.png" height=200> 
+            <p><b>Using Data in Organizations</b>
+            <br>
+            Chapter 4 of Data Methods and Theory in the Organizational Sciences
+            <br>
+            <i>Fink, McNulty 2022</i></p> 
+         </div> 
+      </div>  
+
 
 ---
 class: inverse, center, middle
